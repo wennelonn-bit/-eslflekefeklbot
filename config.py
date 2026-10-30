@@ -3,7 +3,7 @@ from os import environ
 class Config:
     API_ID = environ.get("API_ID", "35018640")
     API_HASH = environ.get("API_HASH", "44dc330c7d9c2363e3f6abcd223a7334")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "8920587998:AAGQebFs3qUKXqSE9vH5ZfSKs6ehCrWSe0o") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "9168361449:AAFF_N2hnR616r8MROsyFPpdW3oR31k8mDI") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://bot_user:frwgSseHgO1bZrpO@cluster0.mwdg6aw.mongodb.net/?appName=Cluster0&tlsAllowInvalidCertificates=true")
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward-bot")
